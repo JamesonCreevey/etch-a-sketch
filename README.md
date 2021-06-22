@@ -1,2 +1,1 @@
-# etch-a-sketch
-Colorful hover effect drawing board
+Creating a 16*16 grid to draw random colors on hover
