@@ -1,0 +1,36 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+/*Align everything in the center and basic styling*/
+body {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  height: 100vh;
+  background: #242b2e;
+}
+
+
+.container {
+  display: flex;
+  flex-wrap: wrap;
+  height: 600px;
+  width: 600px;
+  background: #fff;
+}
+
+h1 {
+  color: #fff;
+  font-size: 40px;
+  margin-bottom: 20px;
+}
+
+.grid {
+  height: 37.5px;/*container height and width / 16 = 37.5*/
+  width: 37.5px;/*    16*16 rows and columns    */
+  border: 1px solid rgb(202,202,202);
+}
